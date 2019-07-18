@@ -17,7 +17,7 @@ def index():
     return render_template("index.html", vacation=destination_data)
 
 
-Route that will trigger the scrape function
+#Route that will trigger the scrape function
 @app.route("/scrape")
 def scrape():
 
